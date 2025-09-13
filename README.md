@@ -21,16 +21,6 @@ Typical workflow:
 - Modular code structure to easily plug in new waste categories
 - Easy to extend with new models or hardware components
 
-## Project Structure
-  Autonomous-Waste-Sorting-Bin/
-├── app.py # Web application / dashboard logic
-├── main.py # Core system logic (image capture, classification, actuation)
-├── requirements.txt # Python dependencies
-├── README.md # Project introduction and documentation
-└── .gitignore # Files and folders to ignore
 
----
-
-## Project Structure
 
 
