@@ -66,11 +66,11 @@ Camera Input → Preprocessing → ML Inference → Control Logic → Actuator
 
 ```
 waste-sorting-system/
-├── inference/          # ML model and on-device inference pipeline
-├── preprocessing/      # Image acquisition and frame preparation
-├── control/            # Actuator control logic
-├── monitoring/         # Dashboard and logging services
-├── models/             # Trained model weights
+├── dashboard/          # Real-time monitoring and classification logging
+├── app.py              # Application entry point and API layer
+├── main.py             # Core inference and control logic
+├── requirements.txt    # Python dependencies
+├── .gitignore
 └── README.md
 ```
 
