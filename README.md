@@ -1,26 +1,35 @@
-# Autonomous Waste Sorting Bin
+Autonomous Waste Sorting System — Edge AI Deployment
+Overview
 
-## Overview
+An edge AI–based autonomous waste sorting system that performs real-time waste classification using computer vision and on-device machine learning inference on Raspberry Pi hardware.
 
-An intelligent system that automatically sorts waste items (such as plastic, metal, paper, biodegradable, etc.), using computer vision and machine learning. The project is implemented using Python, with a web interface (or dashboard) for monitoring and control.
+The system integrates:
 
-Typical workflow:
+image acquisition,
+ML-based waste classification,
+real-time inference pipelines,
+actuator control logic,
+and monitoring interfaces
 
-1. Camera captures image of waste item.
-2. Image is processed via machine learning model(s) to classify the type of waste.
-3. An actuator / mechanism directs the item into the correct bin.
-4. System dashboard shows real-time status, statistics, logs.
+to enable fully automated waste segregation with minimal human intervention.
 
----
+Designed for resource-constrained environments, the project focuses on low-latency embedded AI inference and hardware-software integration for intelligent waste management applications.
 
-## Features
-
-- Image classification for waste types (plastic, paper, metal, etc.)
-- Web / Dashboard UI to monitor waste sorting
-- Automated logging of classification and sorting
-- Modular code structure to easily plug in new waste categories
-- Easy to extend with new models or hardware components
-
+System Workflow
+Camera module captures incoming waste object images.
+Image preprocessing pipeline prepares frames for inference.
+On-device ML model performs real-time waste classification.
+Control logic triggers sorting actuator based on predicted category.
+Dashboard/logging services display system activity and classification statistics.
+Features
+Real-time waste classification using computer vision
+Edge AI inference on Raspberry Pi
+Low-latency on-device model execution
+Automated actuator-based sorting logic
+Modular inference pipeline architecture
+Real-time monitoring and logging
+Extensible waste category support
+Hardware-software integration for embedded AI systems
 
 
 
