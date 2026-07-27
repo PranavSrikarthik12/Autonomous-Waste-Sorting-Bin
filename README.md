@@ -55,7 +55,7 @@ Camera Input → Preprocessing → ML Inference → Control Logic → Actuator
 ## Tech Stack
 
 - **Hardware** — Raspberry Pi, Camera Module, Sorting Actuator
-- **ML / CV** — TensorFlow Lite, OpenCV
+- **ML / CV** — Pytorch, OpenCV
 - **Inference** — On-device model serving, optimized for CPU-constrained hardware
 - **Control Logic** — Python-based actuator coordination
 - **Monitoring** — Real-time logging and classification dashboard
